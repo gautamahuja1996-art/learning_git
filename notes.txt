@@ -19,3 +19,8 @@ Some important jargons/terminologies:
 
 To push the file to the staging area, write 'git add filename'. Then run 'git status'. You will see Git will say files are ready to be committed.
 
+To save the state of files (snapshot) write 'git commit'. It will open an editor and ask for commit message. write 'initial commit' and save-->close the editor. your commit is done. write 'git status' to check.
+
+to create new blank file, write the command, 'touch contact.html'. after that if do git status, it shows all the changes in your repo.
+
+git add -A : To push all the files in staging area at once.
