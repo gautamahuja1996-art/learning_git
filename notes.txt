@@ -24,3 +24,7 @@ To save the state of files (snapshot) write 'git commit'. It will open an editor
 to create new blank file, write the command, 'touch contact.html'. after that if do git status, it shows all the changes in your repo.
 
 git add -A : To push all the files in staging area at once.
+
+if you don't want to add a commit message in an editor, simply write, git commit -m "commit message".
+
+clear: to clear the terminal.
