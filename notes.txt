@@ -6,6 +6,7 @@ We should do the below settings to let others know, who did the changes to the p
 - git config --global user.name gautamahuja: To set the user name to gautam ahuja.
 - git config --global user.email ahuja.gautam1996@gmail.com: To set the email to ahuja.gautam1996@gmail.com.
 
+ls: to list all the files in the current working directory.
 ls -lart: shows all the files (hidden as well)
 
 git init: When you run the git init command, Git creates/initializes a new git repository along with the .git folder (hidden: cotains all the metadata regarding the repo) in the current working directory.
@@ -30,3 +31,12 @@ if you don't want to add a commit message in an editor, simply write, git commit
 clear: to clear the terminal.
 
 If you loose all your data in the repository due to some mistake, you can reverse it to the last commit point, using the command 'git checkout file_name' or 'git checkout -f' [for all files]
+
+git log: To see all the changes/Commits. 'q' + enter to exit.
+
+git log -p -2 : Shows the last 2 committs [fitering the git logs]
+
+git diff : Shows the difference/changes made between staging and working done. 'diff' stands for difference.
+
+git diff --staged: Compares staging with last commit.
+
