@@ -28,3 +28,5 @@ git add -A : To push all the files in staging area at once.
 if you don't want to add a commit message in an editor, simply write, git commit -m "commit message".
 
 clear: to clear the terminal.
+
+If you loose all your data in the repository due to some mistake, you can reverse it to the last commit point, using the command 'git checkout file_name' or 'git checkout -f' [for all files]
